@@ -1,0 +1,8 @@
+# 本项目所依赖的环境如下
+python == 3.7.6
+pandas == 1.0.3
+matplotlib == 3.2.1
+numpy == 1.18.5
+scipy == 1.4.1
+scikit-learn == 0.20.3
+seaborn == 0.10.1

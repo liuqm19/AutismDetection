@@ -1,0 +1,63 @@
+{
+    "ex_conf": {
+        "ex1_conf": {
+            "white_event": [
+                15,
+                30,
+                40,
+                50,
+                60
+            ],
+            "black_event": [
+                10,
+                25,
+                35,
+                45,
+                55,
+                65
+            ],
+            "block_time": 70,
+            "trial_time": 10,
+            "trial_num": 6,
+            "baseline_time": 10,
+            "crop_time": 2,
+            "root_dir": "D:/src/AutismDetection/",
+            "data_path": "data/slide1",
+            "fig_path": "fig/slide1/"
+        },
+        "ex2_conf": {
+            "white_event": [
+                10,
+                20,
+                30,
+                40,
+                50,
+                60
+            ],
+            "black_event": [
+                15,
+                25,
+                35,
+                45,
+                55,
+                65
+            ],
+            "block_time": 70,
+            "trial_time": 10,
+            "trial_num": 6,
+            "baseline_time": 10,
+            "crop_time": 2,
+            "root_dir": "D:/src/AutismDetection/",
+            "data_path": "data/slide2",
+            "fig_path": "fig/slide2/"
+        }
+    },
+    "output_conf":{
+        "all_features": "D:\\src\\AutismDetection\\csv\\plr_feat.csv",
+        "significant_difference_features_info": "D:\\src\\AutismDetection\\csv\\significant_difference_features_info_plr.csv",
+        "significant_difference_features": "D:\\src\\AutismDetection\\csv\\significant_difference_features_plr.csv",
+        "best_features_combination": "D:\\src\\AutismDetection\\csv\\best_features_combination_plr.csv",
+        "scores_models": "D:\\src\\AutismDetection\\csv\\scores_models_plr.csv",
+        "best_model": "D:\\src\\AutismDetection\\model\\AutismDetectionModel_plr.pkl"
+    }
+}
